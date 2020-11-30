@@ -4,11 +4,10 @@ def wave
     s.insert(i, " ")
     puts s
   end
-  for a in 0...3
+  for a in 4.downto(0)
     s.slice!(a)
     puts s
   end
-  puts s.delete(" ")
 end
 
 wave()
