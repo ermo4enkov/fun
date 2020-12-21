@@ -1,4 +1,3 @@
-
 num = nil
 
 until num == 1 || num == 2 do
