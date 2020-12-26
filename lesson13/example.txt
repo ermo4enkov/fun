@@ -1,5 +1,5 @@
 eins
-
+2
 zwei
 drei
 vier
@@ -10,10 +10,5 @@ sechs
 sieben
 acht
 
-
 neun
 zehn
-
-
-
-
