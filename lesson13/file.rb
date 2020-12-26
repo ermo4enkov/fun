@@ -7,6 +7,9 @@ content = file.read
 # lines = file.readlines
 
 puts content
+file.close
+#This command closes the file
+
 # puts lines.sample
 # By the line
 #
