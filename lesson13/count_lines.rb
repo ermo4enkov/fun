@@ -6,5 +6,5 @@ file = File.new(file_path, 'r');
 lines = file.readlines
 
 lines.each { |line|
-  puts line
+  puts line.length
 }
