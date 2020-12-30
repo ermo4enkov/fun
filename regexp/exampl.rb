@@ -29,4 +29,6 @@ p 'cabsdsdst' =~ /^c.+t$/
 
 p 'cassssssst' =~ /c.+t$/
 
+# Character classes
 
+p '123456789' =~ /^[0-9]/
