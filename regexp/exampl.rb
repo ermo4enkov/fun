@@ -45,3 +45,7 @@ p '524' =~ /^[234]/
 #
 #  Email regexp
 p "example@gmail.com" =~ /^[a-z0-9]+@[a-z]+\.[a-z]+/
+p "example@gmail.com" =~ /^[\w\d]+@[\w]+\.[\w]/
+
+#gsub
+p "I have a new car".gsub("a new car", "an old car")
