@@ -1,19 +1,16 @@
-villians = ['Joker', 'Moriarti', 'Sauron', 'Solieri']
+heroes_antoheroes = {
+    'batman' => 'Joker',
+    'holmes' => 'Moriarti',
+    'bilbo' => 'Sauron',
+    'mozart' => 'Solieri'
+}
 
 puts 'What is your character'
 
 hero = gets.chomp
 
-case hero
-when 'batman'
-  puts villians[0]
-when 'holmes'
-  puts villians[1]
-when 'bilbo'
-  puts villians[2]
-when 'mozart'
-  puts villians[3]
+if heroes_antoheroes.key?(hero)
+  puts heroes_antoheroes[hero]
 else
   puts 'No villians'
 end
-
