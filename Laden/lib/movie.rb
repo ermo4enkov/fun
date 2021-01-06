@@ -1,5 +1,5 @@
 class Movie < Product
-  attr_reader :title, :year, :director
+  attr_accessor :title, :year, :director
 
   def initialize(params)
     @title = params[:title]

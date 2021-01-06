@@ -4,6 +4,8 @@ require_relative 'lib/book'
 
 film = Movie.new(price: 290, quantity: 5, title: 'Title', year: 2020, director: 'Me')
 
+film.year=1994
+
 film.to_s
 
 
